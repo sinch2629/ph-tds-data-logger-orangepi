@@ -1,0 +1,14 @@
+{
+  "name": "ph-tds-logger-orangepi",
+  "version": "1.0.0",
+  "description": "Reads pH and TDS sensor data via Modbus RS485 on Orange Pi",
+  "main": "src/ph_tds_logger.js",
+  "scripts": {
+    "start": "node src/ph_tds_logger.js"
+  },
+  "author": "sinch2629",
+  "license": "MIT",
+  "dependencies": {
+    "modbus-serial": "^9.0.6"
+  }
+}
